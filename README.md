@@ -1,20 +1,53 @@
-# Blazor RichTextEditor Editform Validation
+# Blazor RichTextEditor EditForm Validation
 
-This sample explains about how to validate the edit form in Blazor RichTextEditor component.
+A Blazor sample that demonstrates validating Rich Text Editor content using `EditForm` and data annotation attributes.
 
-The Rich Text Editor support validation using the EditForm. The user type text content inside the editor is validated with data annotations attributes.
+## Project Overview
+
+This sample shows how to integrate the Blazor Rich Text Editor with `EditForm` to validate user-entered content. The example uses data annotation attributes on the model so the editor content is validated like other form fields and validation messages are displayed.
+
+## Key Points
+
+- Uses `EditForm` for validation
+- Validates editor content with data annotation attributes
 
 ## Prerequisites
 
-* Visual Studio 2022
+- .NET 8.0 SDK
+- Visual Studio 2022+ or VS Code
+- Syncfusion license (if required by NuGet packages)
 
-## How to run the project
+## Setup & Running Steps
 
-* Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+Installation
+
+```bash
+git clone https://github.com/SyncfusionExamples/blazor-richtexteditor-editform-validation.git
+cd blazor-richtexteditor-editform-validation
+```
+
+Restore NuGet packages
+
+```bash
+dotnet restore
+```
+
+Run the application
+
+```bash
+dotnet run
+```
+
+## Usage
+
+Edit content in the Rich Text Editor inside the `EditForm`, then submit. Validation attributes on the model control whether submission succeeds and display messages when invalid.
+
+## Troubleshooting
+
+- Ensure NuGet packages are restored and the project builds.
+- Confirm `EditForm` and model bindings are set correctly if validation messages do not appear.
 
 ## See also
-* [Online examples](https://blazor.syncfusion.com)
-* [Documentation](https://blazor.syncfusion.com/documentation/introduction/)
+
+- [Online examples](https://blazor.syncfusion.com/demos/rich-text-editor/overview?theme=fluent2)
+- [Documentation](https://blazor.syncfusion.com/documentation/rich-text-editor/getting-started-webapp)
