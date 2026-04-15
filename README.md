@@ -49,5 +49,5 @@ Edit content in the Rich Text Editor inside the `EditForm`, then submit. Validat
 
 ## See also
 
-- [Online examples](https://blazor.syncfusion.com)
-- [Documentation](https://blazor.syncfusion.com/documentation/introduction/)
+- [Online examples](https://blazor.syncfusion.com/demos/rich-text-editor/overview?theme=fluent2)
+- [Documentation](https://blazor.syncfusion.com/documentation/rich-text-editor/getting-started-webapp)
